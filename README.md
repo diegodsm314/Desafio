@@ -1,18 +1,44 @@
-## Getting Started
+# Desafio 01
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+This project is a Java application. Follow the steps below to execute it.
 
-## Folder Structure
+## Prerequisites
 
-The workspace contains two folders by default, where:
+- Java Development Kit (JDK) 8 or higher installed
+- Command line access
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+## How to Run
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+1. **Clone or download the repository** to your local machine.
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+2. **Navigate to the project directory**:
+    ```sh
+    cd /path/to/Desafio
+    ```
 
-## Dependency Management
+3. **Compile the Java source files**:
+    ```sh
+    javac -d bin src/**/*.java
+    ```
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+4. **Run the application** (replace `MainClass` with your main class name):
+    ```sh
+    java -cp bin MainClass
+    ```
+
+## Project Structure
+
+```
+Desafio/
+├── src/
+│   └── ... (Java source files)
+├── bin/
+│   └── ... (compiled classes)
+└── README.md
+```
+
+## Notes
+
+- Make sure to update `MainClass` with the actual main class name in your project.
+- If you use an IDE (like IntelliJ IDEA or Eclipse), you can import the project and run it directly.
+
